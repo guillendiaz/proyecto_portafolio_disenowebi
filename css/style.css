@@ -1,0 +1,1001 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+	background-color: #dd1265;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+
+nav .navbar-light{
+    background-color: #CC1414;
+}
+
+.btn{
+	border-color: #dd1265;
+	border-radius: 0; 
+	color: #dd1265;
+}
+
+.section{
+	padding: 50px 20px;
+	color: #fff;
+}
+
+#acerca{
+
+}
+
+#servicios{
+	text-align: center;
+	background-image: url("../img/fondo_servicios.png");
+	background-repeat: no-repeat;
+  	background-position: center top;
+}
+
+#servicios .btn-outline-light{
+		border-radius: 0;
+		font-size: 25px;
+		padding: 10px 70px;
+}
+
+#servicios .con-dg{
+	padding: 0 0;
+	margin: 0 0;
+}
+
+.bg-servicios{
+	color: #000;
+	background-color: #dd1265;
+}
+
+.b-servicios{
+	margin: 10px 10px;
+	width: 400px;
+	border: 2px solid #dd1265;
+	background-color: #000;
+	border-radius: 0;
+}
+
+.pill_blank{
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-photoshop{
+	background-image: url("../img/servicios_photoshop.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-animate{
+	background-image: url("../img/servicios_animate.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-illustrator{
+	background-image: url("../img/servicios_illustrator.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-after{
+	background-image: url("../img/servicios_after.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-audition{
+	background-image: url("../img/servicios_audition.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-dreanwaver{
+	background-image: url("../img/servicios_dreanweaver.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-indesigne{
+	background-image: url("../img/servicios_indesigne.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-media{
+	background-image: url("../img/servicios_media.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-premiere{
+	background-image: url("../img/servicios_premiere.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-xd{
+	background-image: url("../img/servicios_xd.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-html{
+	background-image: url("../img/servicios_html.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-javas{
+	background-image: url("../img/servicios_javas.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-css{
+	background-image: url("../img/servicios_css.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-boostrap{
+	background-image: url("../img/servicios_boostrap.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-wordpress{
+	background-image: url("../img/servicios_wordpress.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-sql{
+	background-image: url("../img/servicios_sql.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-java{
+	background-image: url("../img/servicios_java.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-c{
+	background-image: url("../img/servicios_c++.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-php{
+	background-image: url("../img/servicios_php.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-phyton{
+	background-image: url("../img/servicios_phyton.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-ingles{
+	background-image: url("../img/servicios_ingles.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+#img-espanol{
+	background-image: url("../img/servicios_espanol.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+.card-dg, .card-dw, .card-pr, .card-im{
+	padding: 10px 10px;
+	margin: 0 20px;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#portafolio{
+
+}
+
+#portafolio .btn-outline-dark{
+	border-radius: 0;
+	color: #000;
+	border: 2px solid #000;
+	text-align: center;
+	padding: 15px 15px;
+	margin: 15px 40px;
+}
+
+.imglist{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+#contacto{
+	background-image: url("../img/fondo_contacto.png");
+	background-repeat: no-repeat;
+  	background-position: center top;
+}
+
+.input-ed{
+	color: #fff;
+	border: 2px solid #dd1265;
+	background-color: #000;
+	border-radius: 0;
+}
+
+#contacto textarea{
+	width: 490px;
+	height: 200px;
+}
+
+footer{
+	text-align: center;
+	color: #dd1265;
+	background-color: #000;
+	padding: 50px 50px;
+
+}
+
+.tete{
+	text-align: center;
+	padding-left: 200px;
+}
+
+.img-facebook{
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px;
+
+}
+
+.img-whatsapp{
+	background-image: url("../img/whatsapp.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px;
+
+}
+
+.img-instagram{
+	background-image: url("../img/instagram.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px;
+
+}
+
+.img-instagramv2{
+	background-image: url("../img/instagramv2.png");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px;
+
+}
+
+@media (max-width: 1024px) {
+	body{
+	  	background-color: #d8ca16 ;
+	  }
+
+	h2{
+	  	font-size: 25px;
+	 }
+
+	 .btn{
+		border-color: #d8ca16; 
+		color: #d8ca16;
+	}
+
+	.section{
+		text-align: center;
+		padding: 50px;
+		color: #fff;
+	}
+
+	#acerca{
+
+	}
+
+	#servicios{
+		background-image: url("../img/fondo_servicios_1024px.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#servicios .btn-outline-light{
+		border-radius: 0;
+		font-size: 17px;
+		padding: 10px 35px;
+	}
+
+	.bg-servicios{
+		color: #000;
+		background-color: #d8ca16;
+	}
+
+	.b-servicios{
+		margin: 10px 10px;
+		width: 180px;
+		border: 2px solid #d8ca16;
+		background-color: #000;
+		border-radius: 0;
+	}
+
+	.pill_blank{
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-photoshop{
+		background-image: url("../img/servicios_photoshop_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-animate{
+		background-image: url("../img/servicios_animate_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-illustrator{
+		background-image: url("../img/servicios_illustrator_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-after{
+		background-image: url("../img/servicios_after_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-audition{
+		background-image: url("../img/servicios_audition_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-dreanwaver{
+		background-image: url("../img/servicios_dreanweaver_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-indesigne{
+		background-image: url("../img/servicios_indesigne_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-media{
+		background-image: url("../img/servicios_media_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-premiere{
+		background-image: url("../img/servicios_premiere_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-xd{
+		background-image: url("../img/servicios_xd_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-html{
+		background-image: url("../img/servicios_html_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-javas{
+		background-image: url("../img/servicios_javas_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-css{
+		background-image: url("../img/servicios_css_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-boostrap{
+		background-image: url("../img/servicios_boostrap_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-wordpress{
+		background-image: url("../img/servicios_wordpress_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-sql{
+		background-image: url("../img/servicios_sql_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-java{
+		background-image: url("../img/servicios_java_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-c{
+		background-image: url("../img/servicios_c++_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-php{
+		background-image: url("../img/servicios_php_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-phyton{
+		background-image: url("../img/servicios_phyton_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-ingles{
+		background-image: url("../img/servicios_ingles_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+	#img-espanol{
+		background-image: url("../img/servicios_espanol_1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+	}
+
+
+	#portafolio{
+		padding: 80px 10px;
+	}
+
+	.imglist{
+		width: 543px;
+		height: 242px;
+		padding-left:30px;
+		padding-right: 30px;
+	}
+
+	#portafolio .btn-outline-dark{
+		font-size: 17px;
+		border-radius: 0;
+		color: #000;
+		border: 2px solid #000;
+		text-align: center;
+		padding: 10px 10px;
+		margin: 15px 15px;
+	}
+
+	#contacto{
+		text-align: center;
+		background-image: url("../img/fondo_contacto_1024px.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.input-ed{
+		color: #fff;
+		border: 2px solid #d8ca16;
+		background-color: #000;
+		border-radius: 0;
+	}
+
+	#contacto textarea{
+		width: 325px;
+		height: 200px;
+	}
+
+	footer{
+	text-align: center;
+	color: #d8ca16;
+	background-color: #000;
+	padding: 50px 50px;
+
+}
+
+	.tete{
+		text-align: center;
+		padding-left: 50px;
+	}
+
+	.img-facebook{
+		background-image: url("../img/facebook1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+	.img-whatsapp{
+		background-image: url("../img/whatsapp1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+	.img-instagram{
+		background-image: url("../img/instagram1024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+	.img-instagramv2{
+		background-image: url("../img/instagramv21024px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+}
+
+@media (max-width: 500px) {
+	body{
+	  	background-color: #14d7db;
+	  }
+
+	h2{
+	  	font-size: 15px;
+	 }
+
+	.btn{
+		border-color: #14d7db; 
+		color: #14d7db;
+	}
+
+	.section{
+		text-align: center;
+		padding: 30px;
+		color: #fff;
+	}
+
+	#acerca{
+
+	}
+
+	#servicios{
+		text-align: center;
+		background-image: url("../img/fondo_servicios_500px.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#servicios .btn-outline-light{
+		border-radius: 0;
+		font-size: 10px;
+		padding: 5px 5px;
+	}
+
+	.bg-servicios{
+		color: #000;
+		background-color: #14d7db;
+	}
+
+	.b-servicios{
+		margin: 5px 5px;
+		width: 180px;
+		border: 2px solid #14d7db;
+		background-color: #000;
+		border-radius: 0;
+	}
+
+	.pill_blank{
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-photoshop{
+		background-image: url("../img/servicios_photoshop_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-animate{
+		background-image: url("../img/servicios_animate_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-illustrator{
+		background-image: url("../img/servicios_illustrator_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-after{
+		background-image: url("../img/servicios_after_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-audition{
+		background-image: url("../img/servicios_audition_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-dreanwaver{
+		background-image: url("../img/servicios_dreanweaver_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-indesigne{
+		background-image: url("../img/servicios_indesigne_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-media{
+		background-image: url("../img/servicios_media_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-premiere{
+		background-image: url("../img/servicios_premiere_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-xd{
+		background-image: url("../img/servicios_xd_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-html{
+		background-image: url("../img/servicios_java_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-javas{
+		background-image: url("../img/servicios_javas_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-css{
+		background-image: url("../img/servicios_css_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-boostrap{
+		background-image: url("../img/servicios_boostrap_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-wordpress{
+		background-image: url("../img/servicios_wordpress_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-sql{
+		background-image: url("../img/servicios_sql_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-java{
+		background-image: url("../img/servicios_java_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-c{
+		background-image: url("../img/servicios_c++_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-php{
+		background-image: url("../img/servicios_php_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-phyton{
+		background-image: url("../img/servicios_phyton_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-ingles{
+		background-image: url("../img/servicios_ingles_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	#img-espanol{
+		background-image: url("../img/servicios_espanol_500px.png");
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 30px;
+		margin: 5px 5px;
+	}
+
+	.card-dg, .card-dw, .card-pr, .card-im{
+		font-size: 11px;
+		padding: 5px 5px;
+		margin: 0 5px;
+		text-align: center;
+		color: #fff;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	#portafolio{
+		
+	}
+
+	.imglist{
+		width: 181px;
+		height: 726px;
+		padding-left:30px;
+		padding-right: 30px;
+	}
+
+	.img-fancy{
+		margin: 10px 10px;
+	}
+
+	#portafolio .btn-outline-dark{
+		font-size: 10px;
+		border-radius: 0;
+		color: #000;
+		border: 2px solid #000;
+		text-align: center;
+		padding: 5px 1px;
+		margin: 5px 1px;
+	}
+
+	#contacto{
+		background-image: url("../img/fondo_contacto_500px.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.input-ed{
+		margin: 0 50px;
+		color: #fff;
+		border: 2px solid #14d7db;
+		background-color: #000;
+		border-radius: 0;
+	}
+
+	#contacto textarea{
+		width: 160px;
+		height: 200px;
+	}
+
+	footer{
+	text-align: center;
+	color: #14d7db;
+	background-color: #000;
+	padding: 50px 50px;
+
+}
+	.tete{
+		text-align: center;
+		padding-left: 20px;
+	}
+
+	.img-facebook{
+		background-image: url("../img/facebook500px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+	.img-whatsapp{
+		background-image: url("../img/whatsapp500px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+	.img-instagram{
+		background-image: url("../img/instagram500px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+
+	.img-instagramv2{
+		background-image: url("../img/instagramv2500px.png");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 10px 10px;
+
+	}
+}
